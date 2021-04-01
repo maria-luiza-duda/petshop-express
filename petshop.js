@@ -9,16 +9,16 @@ const petshop = {
         let petsAtualizado = JSON.stringify(bancoDados, null, 2);
         fs.writeFileSync('bancoDados.json', petsAtualizado, 'utf-8')
     },
-    listarPets: () => {
-        bancoDados.pets.forEach((pet) => {
+        listarPets: () => {
+            bancoDados.pets.forEach((pet) => {
 
-            console.log(`${pet.nome}, ${pet.idade} anos, ${pet.tipo}, ${pet.raca}, ${(pet.vacinado) ? 'vacinado': 'não vacinado'}`);
-        
-            pet.servicos.forEach((servico) => {
-                console.log(`${servico.data} - ${servico.nome}`);
+                console.log(`${pet.nome}, ${pet.idade} anos, ${pet.tipo}, ${pet.raca}, ${(pet.vacinado) ? 'vacinado': 'não vacinado'}`);
+            
+                pet.servicos.forEach((servico) => {
+                    console.log(`${servico.data} - ${servico.nome}`);
+                })
             })
-        })
-    },
+        },
     vacinarPet: pet => {
         if (!pet.vacinado) {
             pet.vacinado = true;
@@ -130,3 +130,5 @@ const petshop = {
     }
 
 }
+
+module.exports = petshop;
