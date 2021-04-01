@@ -1,0 +1,81 @@
+{
+    "pets": [
+      {
+        "nome": "Billy",
+        "tipo": "Cachorro",
+        "idade": 1,
+        "raca": "Poodle",
+        "peso": 2,
+        "tutor": "Malu",
+        "contato": "(81) 98346-8310",
+        "vacinado": true,
+        "servicos": []
+      },
+      {
+        "nome": "Negão",
+        "tipo": "Cachorro",
+        "idade": 16,
+        "raca": "Vira-lata",
+        "peso": 5,
+        "tutor": "Marinete",
+        "contato": "(81) 5555-5555",
+        "vacinado": true,
+        "servicos": []
+      },
+      {
+        "nome": "Paco",
+        "tipo": "Gato",
+        "idade": 4,
+        "raca": "Vira-lata",
+        "peso": 5,
+        "tutor": "Maria Eduarda",
+        "contato": "(81) 4444-5555",
+        "vacinado": false,
+        "servicos": []
+      },
+      {
+        "nome": "Patrick",
+        "tipo": "Coelho",
+        "idade": 2,
+        "raca": "coelho",
+        "peso": 4,
+        "tutor": "Marinete",
+        "contato": "(81) 5555-5555",
+        "vacinado": true,
+        "servicos": []
+      },
+      {
+        "nome": "Théo",
+        "tipo": "Cachorro",
+        "idade": 5,
+        "raca": "Chitzu",
+        "peso": 3,
+        "tutor": "Malu",
+        "contato": "81 3333-3333",
+        "vacinado": false,
+        "servicos": []
+      },
+      {
+        "nome": "Ada",
+        "tipo": "Cachorro",
+        "idade": 2,
+        "raca": "Chaw-chaw",
+        "peso": 8,
+        "tutor": "Jupinha",
+        "contato": "(81) 99999-9999",
+        "vacinado": true,
+        "servicos": []
+      },
+      {
+        "nome": "Floquinho",
+        "tipo": "cachorro",
+        "idade": 5,
+        "raca": "Doberman",
+        "peso": 20,
+        "tutor": "Cebolinha",
+        "contato": "(11) 333333333",
+        "vacinado": false,
+        "servicos": []
+      }
+    ]
+  }
